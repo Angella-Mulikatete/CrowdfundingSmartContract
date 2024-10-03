@@ -55,8 +55,8 @@ contract CrowdFunding{
 
     function createCampaign(string memory _title, string memory _description, address payable _benefactor, uint _goal, uint _durationInSeconds)
              public payable onlyOwner{
-            require(_goal > 0, "Goal must be greater than zero");
-            require(_durationInSeconds > 0, "Duration must be greater than zero");
+             require(_goal > 0, "Goal must be greater than zero");
+             require(_durationInSeconds > 0, "Duration must be greater than zero");
 
             uint _deadline = block.timestamp + _durationInSeconds;
 
