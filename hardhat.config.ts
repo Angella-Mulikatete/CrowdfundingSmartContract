@@ -35,3 +35,5 @@ const config: HardhatUserConfig = {
 };
 
 export default config;
+
+// crowdFundingModule#CrowdFunding - 0x29069241b0101ca00dd43112F0908b57e05Bb2f6
